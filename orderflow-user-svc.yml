@@ -2,9 +2,6 @@ server:
   port: 8081
 
 spring:
-  application:
-    name: orderflow-user-svc
-
   datasource:
     url: jdbc:postgresql://localhost:5432/OrderFlow
     username: postgres
